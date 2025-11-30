@@ -1,5 +1,8 @@
 #include<stdio.h>
 #include<stdbool.h>
+// your function returns directly true IF the first letter was the same as the last letter
+// example: AZEA, A == A , but Z != E, so your function returns true immdeatly even tho Z != E
+// but at least you've done your homework :) good job. by Ali
 bool valid_palindrome(char *str) {
     int length = 0;
 
